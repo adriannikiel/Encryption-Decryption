@@ -20,5 +20,11 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/3741#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: "<html>Yes! \nJava follows the \"write once, run anywhere\" (or WORA) principle.\
+    \ \nThe same program can be run on multiple platforms without any changes.</html>"
+  time: Sat, 01 Jan 2022 21:45:27 UTC
 record: -1
+selected_options:
+- 0
