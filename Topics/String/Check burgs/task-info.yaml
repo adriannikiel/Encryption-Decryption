@@ -13,19 +13,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2718#comment
-status: Failed
+status: Solved
 feedback:
-  message: |
-    Failed test #2 of 9. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    Saint Petersburg
-    Correct output:
-    true
-
-    Your code output:
-    false
-  time: Sat, 08 Jan 2022 22:51:32 UTC
+  message: <html>Correct solution</html>
+  time: Sat, 08 Jan 2022 22:52:31 UTC
 record: -1
