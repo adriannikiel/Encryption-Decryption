@@ -5,6 +5,7 @@ public class Main {
 
     public static void sort(int[] numbers) {
         // write your code here
+        Arrays.sort(numbers);
     }
 
     /* Do not change code below */
