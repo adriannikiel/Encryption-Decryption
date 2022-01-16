@@ -8,3 +8,4 @@ content:
 - Extracting a substring
 - Comparing strings ignoring whitespaces
 - Java as a string
+- Check prefix ignoring the case
