@@ -1,10 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: SomeClass instance = SomeClass.defaultConstructor();
-- text: It's impossible.
-- text: SomeClass instance = new SomeClass();
-- text: SomeClass instance = new SomeClass(10);
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

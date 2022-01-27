@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: This method has a restricted access
-- text: This method calculates the absolute value of a double value
-- text: It is a user-defined method
-- text: It belongs to the Math library
-- text: It is a built-in method
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

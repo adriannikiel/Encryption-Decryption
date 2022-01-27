@@ -1,10 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: private
-- text: public
-- text: ' protected'
-- text: no access modifier
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

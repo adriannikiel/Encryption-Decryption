@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: The method <b>main</b> can have another name (<b>start</b>, <b>run</b>, <b>program</b>).
-- text: The <b>main</b> method can be placed outside a class.
-- text: ' A class containing the <b>main</b> method can have any valid name (<b>Main</b>,
-    <b>App</b>, <b>Demo</b> and so on).'
-- text: To display a string we pass it to <b>System.out.println(...)</b>.
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

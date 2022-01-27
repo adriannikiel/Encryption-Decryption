@@ -1,10 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: MyClass
-- text: boolean
-- text: String
-- text: int
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

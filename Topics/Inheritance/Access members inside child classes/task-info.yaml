@@ -1,12 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: protected for fields, private for methods
-- text: private for fields and methods
-- text: protected for fields and methods
-- text: public for fields and methods
-- text: public for fields, protected for methods
-- text: private for methods, protected for fields
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: true
 options:
+- text: getSpeed()
 - text: speed
+- text: speedUp(int increment)
 - text: cadence
 - text: gear
-- text: speedUp(int increment)
-- text: getSpeed()
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

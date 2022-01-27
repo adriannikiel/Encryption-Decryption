@@ -1,10 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: Interface abstract methods cannot have a body.
-- text: Default methods in an interface should have a body.
-- text: An interface cannot include static and non-static methods at the same time.
-- text: Static methods in an interface cannot have a body.
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

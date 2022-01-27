@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: constructors
-- text: instances
-- text: non-static fields
-- text: non-static methods
-- text: parent class (class, not interface)
-- text: static methods
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

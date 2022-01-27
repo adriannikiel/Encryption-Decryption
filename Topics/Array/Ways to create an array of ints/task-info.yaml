@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: int numbers[] = new int[](10);
-- text: int[] numbers = new int[10];
-- text: int[] numbers = new array[10];
-- text: int[] numbers = new int(10);
-- text: int numbers[] = new int[10];
-- text: int numbers[] = new array[10];
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

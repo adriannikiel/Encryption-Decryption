@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: Every class has a constructor.
-- text: If the programmer does not provide a constructor for a class, the code cannot
-    compile.
-- text: A new object is created by invoking a constructor.
-- text: A constructor cannot contain a body.
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

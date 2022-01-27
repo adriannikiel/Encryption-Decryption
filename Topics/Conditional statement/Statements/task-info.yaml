@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: The construction <b>if ... else if ... else if ...</b> is possible in Java.
-- text: The result of an expression in the condition always has the <b>boolean</b>
-    type.
-- text: The conditional statement always has to contain the <b>else-branch</b>.
-- text: In the conditional statement, the keyword <b>then</b> is used;
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

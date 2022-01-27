@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: Using javadoc tool it is possible to generate a documentation based on comments
-    like /** javadoc */
-- text: A multiple-line comment can't span only one line.
-- text: A multiple-line comment begins with /* and ends with */
-- text: An end-of-line comment begins with // and lasts till the end of the current
-    line.
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

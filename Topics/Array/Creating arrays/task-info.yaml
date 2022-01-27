@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: char[] array = new char[1];
-- text: char[] array = new char[0];
-- text: char[] array = new char[10000000000000];
-- text: char[] array = new char[-1];
-- text: char[] array = { 'a', 'b', 'c', 'd' };
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

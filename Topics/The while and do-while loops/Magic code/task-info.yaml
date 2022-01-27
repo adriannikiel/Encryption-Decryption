@@ -1,11 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: It counts the number of '0' in the passed number.
-- text: It rearranges digits of the passed number.
-- text: It determines whether the passed number is divided by 10.
-- text: It finds the greatest digit of the passed number.
-- text: It counts the number of digits of the passed number.
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

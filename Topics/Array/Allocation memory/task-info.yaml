@@ -1,11 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: new
-- text: alloc
-- text: create
-- text: array
-- text: malloc
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

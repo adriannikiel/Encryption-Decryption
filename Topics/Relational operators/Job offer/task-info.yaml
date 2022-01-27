@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: Mary
-- text: Emily
-- text: Alexander
-- text: Olivia
-- text: Andrew
-- text: John
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

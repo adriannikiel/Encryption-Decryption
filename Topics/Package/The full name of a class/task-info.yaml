@@ -1,11 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: java.org.hyperskill.DemoClass
-- text: org.hyperskill.java.DemoClass.class
-- text: DemoClass
-- text: hyperskill.java.DemoClass
-- text: org.hyperskill.java.DemoClass
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

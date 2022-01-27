@@ -1,10 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: The type of a field
-- text: The type of a local variable inside an instance method
-- text: An instance method's argument type
-- text: An instance method's return type
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

@@ -1,12 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: interface
-- text: new
-- text: struct
-- text: object
-- text: type
-- text: class
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

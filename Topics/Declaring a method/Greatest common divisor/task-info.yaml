@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: gcd(3, 6) is 3
-- text: gcd(6, 2) is 3
-- text: gcd(4, 6) is 2
-- text: gcd(1, 3) is 3
-- text: gcd(1, 1) is 1
-- text: gcd(3, 7) is 7
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

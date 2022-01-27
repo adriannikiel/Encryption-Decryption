@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: java.util
-- text: java.lang
-- text: org.hyperskill.java.packages
-- text: the default package
-- text: all subpackages of org.hyperskill.java.packages
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

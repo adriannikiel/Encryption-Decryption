@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: The values of the fields are always the same for all objects of this class.
-- text: 'The following statement creates an object of the class: <b>Point3D p = new
-    Point3D();</b>'
-- text: This is an incorrect class definition.
-- text: The class has three fields of the same type.
+is_multiple_choice: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
