@@ -1,5 +1,11 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: Preparator
+- text: Destructor
+- text: Finalizer
+- text: Constructor
+- text: Getter
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: 1 version
+- text: 2 versions
+- text: 3 versions
+- text: As many versions as the total number of users
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

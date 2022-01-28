@@ -1,5 +1,11 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: Import statement can't import a class from a named package into a java file
+    inside the default package.
+- text: Import statement can't import a class from the default package into a java
+    file inside a named package.
+- text: Classes inside the default package are invisible to each other.
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

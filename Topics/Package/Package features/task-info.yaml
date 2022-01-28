@@ -1,5 +1,10 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: A package can contain another package.
+- text: A package can contain a single class with a unique name in this package.
+- text: A package can be empty.
+- text: A package can contain two classes with the same name.
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

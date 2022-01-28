@@ -1,5 +1,9 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: Java does not have memory cleaning mechanisms at all.
+- text: Java involves the use of a manual memory cleaning.
+- text: Java has a mechanism that cleans memory automatically.
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

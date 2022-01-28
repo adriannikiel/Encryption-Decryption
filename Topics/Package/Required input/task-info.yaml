@@ -1,5 +1,11 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: import java.lang.*;
+- text: import static java.lang.*;
+- text: import java.lang.String;
+- text: import org.hyperskill.*;
+- text: import static java.lang.System.out;
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

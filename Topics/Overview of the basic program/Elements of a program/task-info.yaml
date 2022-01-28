@@ -1,5 +1,10 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: <b>class</b> is a keyword
+- text: <b>main</b> is a keyword
+- text: <b>HelloWorldProgram</b> is a name
+- text: <b>void</b> is a statement
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

@@ -1,5 +1,12 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: java.lang.String
+- text: java.util.Scanner
+- text: org.demo.B
+- text: org.demo.A
+- text: org.demo.mypackage2.D
+- text: org.demo.mypackage1.C
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

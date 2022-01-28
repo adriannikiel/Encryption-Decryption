@@ -1,5 +1,10 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: A variable can store a value
+- text: A variable's name can be changed at runtime
+- text: A variable has a name (identifier)
+- text: A variable has a type
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

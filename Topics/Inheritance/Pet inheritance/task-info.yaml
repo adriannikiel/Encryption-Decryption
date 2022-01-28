@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: getBirthDate()
+- text: setName(String name)
+- text: birthDate
+- text: name
+- text: getName()
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

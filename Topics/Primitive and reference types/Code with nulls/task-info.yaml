@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: Both lines work correctly.
+- text: Both lines do not work.
+- text: Only the second line does not work.
+- text: Only the first line does not work.
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
