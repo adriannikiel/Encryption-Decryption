@@ -118,5 +118,13 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/5391#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    File output.txt not found!
+
+    Arguments: -mode enc -key 5 -in in.txt -out output.txt
+  time: Sun, 30 Jan 2022 23:35:10 UTC
 record: -1
