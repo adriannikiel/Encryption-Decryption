@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/209884/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Mon, 31 Jan 2022 21:22:49 UTC
+update_date: Wed, 02 Feb 2022 00:35:04 UTC
 stages:
 - id: 245
   step: 5387
@@ -181,12 +181,12 @@ topics:
   3:
   - title: Overloading
     theory_id: 3525
+  - title: Command-line arguments
+    theory_id: 3566
   - title: Hierarchy of exceptions
     theory_id: 3570
   - title: Exception handling
     theory_id: 3552
-  - title: Command-line arguments
-    theory_id: 3566
   - title: IntelliJ Run Configurations
     theory_id: 10630
   - title: Multiple constructors
