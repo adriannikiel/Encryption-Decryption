@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <b>warn.show()</b> outputs "No problems"
+- text: '<b>alarm.show()</b> outputs "ALARM: The ship sank"'
+- text: <b>notif.show()</b> outputs "No problems"
+- text: '<b>warn.getMsg()</b> returns "WARN: Money ends"'
+- text: '<b>alarm.getMsg()</b> returns "ALARM: The ship sank"'
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3064#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 03 Feb 2022 21:22:05 UTC
+record: -1
+selected_options:
+- 1
+- 2
+- 3
