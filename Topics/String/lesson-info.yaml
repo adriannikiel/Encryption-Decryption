@@ -9,3 +9,4 @@ content:
 - Comparing strings ignoring whitespaces
 - Java as a string
 - Check prefix ignoring the case
+- Replacing 'a' with 'b'
