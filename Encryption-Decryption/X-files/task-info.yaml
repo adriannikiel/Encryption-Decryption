@@ -117,14 +117,12 @@ files:
         }
     }
   learner_created: false
+- name: output.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5391#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    File output.txt not found!
-
-    Arguments: -mode enc -key 5 -in in.txt -out output.txt
-  time: Sun, 30 Jan 2022 23:35:10 UTC
+  message: Congratulations!
+  time: Sat, 05 Feb 2022 13:51:33 UTC
 record: -1
