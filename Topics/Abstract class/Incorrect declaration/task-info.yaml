@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: A
+- text: C
+- text: D
+- text: B
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3434#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 06 Feb 2022 14:25:19 UTC
+record: -1
+selected_options:
+- 1
