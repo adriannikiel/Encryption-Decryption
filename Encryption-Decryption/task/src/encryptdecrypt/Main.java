@@ -10,22 +10,40 @@ public class Main {
 
         String mode = setFinalMode(args);
         int key = setFinalKey(args);
+        String algorithm = setFinalAlgorithm(args);
         String data = setFinalInput(args);
         PrintStream stream = setFinalOutput(args);
 
-        switch (mode) {
-            case "enc":
-                stream.println(encryptText(data, key));
-                break;
-            case "dec":
-                stream.println(decryptText(data, key));
-                break;
+        if (algorithm.equals("unicode")) {
+            switch (mode) {
+                case "enc":
+                    stream.println(encryptTextUnicode(data, key));
+                    break;
+                case "dec":
+                    stream.println(decryptTextUnicode(data, key));
+                    break;
+            }
+        } else if (algorithm.equals("shift")) {
+            switch (mode) {
+                case "enc":
+                    stream.println(encryptTextShift(data, key));
+                    break;
+                case "dec":
+                    stream.println(decryptTextShift(data, key));
+                    break;
+            }
         }
 
         if (stream != null) {
             stream.close();
         }
 
+    }
+
+    private static String setFinalAlgorithm(String[] args) {
+        String alg = findParam(args, "-alg");
+
+        return alg.isEmpty() ? "shift" : alg;
     }
 
     private static String setFinalMode(String[] args) {
@@ -98,12 +116,11 @@ public class Main {
         return "";
     }
 
-    public static String encryptText(String message, int key) {
+    public static String encryptTextUnicode(String message, int key) {
 
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < message.length(); i++) {
-
             char c = (char) (message.charAt(i) + key);
             result.append(c);
         }
@@ -111,8 +128,60 @@ public class Main {
         return result.toString();
     }
 
-    public static String decryptText(String cyphertext, int key) {
-        return encryptText(cyphertext, -key);
+    public static String decryptTextUnicode(String ciphertext, int key) {
+        return encryptTextUnicode(ciphertext, -key);
+    }
+
+    public static String encryptTextShift(String message, int key) {
+
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < message.length(); i++) {
+            char token = message.charAt(i);
+            char c = encryptCharShift(token, key);
+            result.append(c);
+        }
+
+        return result.toString();
+    }
+
+    public static String decryptTextShift(String ciphertext, int key) {
+        return encryptTextShift(ciphertext, -key);
+    }
+
+    private static char encryptCharShift(char token, int key) {
+
+        final char minSmall = 'a';  //97
+        final char maxSmall = 'z';  //122
+        final char minBig = 'A';    //65
+        final char maxBig = 'Z';    //90
+
+        char c;
+
+        if (token >= minSmall && token <= maxSmall) {
+            c = charShiftParam(token, key, minSmall, maxSmall);
+        } else if (token >= minBig && token <= maxBig) {
+            c = charShiftParam(token, key, minBig, maxBig);
+        } else {
+            c = token;
+        }
+
+        return c;
+    }
+
+    private static char charShiftParam(char token, int key, char minChar, char maxChar) {
+
+        char c = (char) (token + key);
+
+        if (c > maxChar) {
+            c = (char) ((token + key - maxChar) + minChar - 1);
+        }
+
+        if (c < minChar) {
+            c = (char) (maxChar - (minChar - (token + key)) + 1);
+        }
+
+        return c;
     }
 
 }
